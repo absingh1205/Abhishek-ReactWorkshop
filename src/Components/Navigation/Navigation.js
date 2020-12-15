@@ -23,11 +23,9 @@ function Nav(props) {
   };
 
   let handlelogout = () => {
-
     props.dispatch({
-      type : "SetLogout"
-    })
-    
+      type: "SetLogout",
+    });
   };
 
   return (
